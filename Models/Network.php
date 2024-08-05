@@ -2,7 +2,6 @@
    class Network {
       public $data;
       public $ultimate_paths;
-      private $visited_paths;
 
       function __construct($_data){
          $this->data = $_data;
